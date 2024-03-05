@@ -23,7 +23,7 @@ const All = () => {
     setTask(task.concat([{
       id: uuidv4(),
       text: input,
-      check: false
+      checked: false
     }]))
   }
   useEffect(() => {
