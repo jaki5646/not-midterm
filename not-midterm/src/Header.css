@@ -1,0 +1,28 @@
+.header {
+    width: 100vw;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+    border-bottom: 1px black solid;
+    max-width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 0 2rem;
+}
+.nav a {
+    display: block;
+    height: 2rem;
+    text-decoration: none;
+    color: black;
+    /* border-bottom: #0084f5 1px solid; */
+    min-width: 5rem;
+}
+.active {
+    border-bottom: #0084f5 3px solid;
+    border-radius: 2px;
+}

@@ -1,0 +1,19 @@
+.tasks {
+    min-width: 50%;
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-45%);
+    margin-top: 2rem;
+}
+.task-component {
+    display: flex;
+    gap: 1rem;
+}
+.task-component input {
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    margin-top: 10px;
+}
+.checked {
+    text-decoration-line: line-through;
+}

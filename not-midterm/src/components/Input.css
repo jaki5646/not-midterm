@@ -1,0 +1,29 @@
+.homepage {
+    width: 100vw;
+    text-align: center;
+}
+.input-field form {
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.input-field form input {
+    font-size: 1.5rem;
+    width: 65%;
+    padding: 15px 10px;
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+.input-field form button {
+    width: 20%;
+    font-size: 1.5rem;
+    padding: 15px 0;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    background: blue;
+    color: white;
+    border: none;
+}
